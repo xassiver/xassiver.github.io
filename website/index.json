@@ -1,0 +1,15 @@
+﻿[{
+    "Id":  "oyun1",
+    "Name":  "Space Wars",
+    "Description":  "A relentless battle in the depths of the cosmos.",
+    "Version":  "1.2.5",
+    "DownloadUrl":  "website/oyun1/oyun1.zip",
+    "ExecutablePath":  "Game.bat",
+    "Dependencies":  [
+                         {
+                             "Name":  "Visual C++ Redistributable",
+                             "Url":  "website/redist/vc_redist.x64.exe",
+                             "SilentArgs":  "/install /quiet /norestart"
+                         }
+                     ]
+}]
