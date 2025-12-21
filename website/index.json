@@ -1,14 +1,28 @@
 ﻿[
     {
-        "Id": "oyun1",
-        "Name": "Space Wars",
-        "Description": "A relentless battle in the depths of the cosmos.",
-        "Version": "1.2.5",
+        "Id": "fnaf1",
+        "Name": "Five Nights at Freddy's 1",
+        "Description": "Five Nights at Freddy's is a survival horror game where you play as a night security guard at Freddy Fazbear's Pizza. Your goal is to survive five nights while avoiding animatronic characters that come to life and try to harm you.",
+        "Version": "1.0.0",
         "DownloadUrls": [
-            "website/oyun1/oyun1.zip",
-            "website/oyun1/oyun1.zip"
+            "website/fnaf1/fnaf1.part1",
+            "website/fnaf1/fnaf1.part2",
+            "website/fnaf1/fnaf1.part3"
         ],
-        "ExecutablePath": "Game.bat",
+        "ExecutablePath": "Five Nights at Freddy's 1.exe",
+        "Dependencies": [
+            {}
+        ]
+    },
+    {
+        "Id": "TEST",
+        "Name": "TEST",
+        "Description": "",
+        "Version": "1.0.0",
+        "DownloadUrls": [
+            "website/test/test.zip"
+        ],
+        "ExecutablePath": "TEST",
         "Dependencies": [
             {
                 "Name": "Visual C++ Redistributable",
